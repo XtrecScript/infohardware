@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Info Hardware</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='script.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="icon" href="" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3">
+
+</head>
+<body>
+    <nav>
+        <i class="material-icons" id="t">memory</i>
+        <label class="logo">Info Hardware</label>
+        <ul>
+            <li><a href="../InfoSoftware/index.html">Inicio</a></li>
+            <li><a class="active" href="../InfoSoftware/gpu.html">GPU</a></li>
+            <li><a href="/componentes/cpu.html">CPU</a></li>
+            <li><a href="/componentes/board.html">Board</a></li>
+            <li><a href="/componentes/ram.html">Ram</a></li>
+            <li><a href="/componentes/ram.html">Storage</a></li>
+            <li><a href="/componentes/case.html">Case</a></li>
+            <li><a href="/componentes/fuente.html">Fuente</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="space">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gpu-card" viewBox="0 0 16 16">
+            <path d="M4 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm7.5-1.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/>
+            <path d="M0 1.5A.5.5 0 0 1 .5 1h1a.5.5 0 0 1 .5.5V4h13.5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5H2v2.5a.5.5 0 0 1-1 0V2H.5a.5.5 0 0 1-.5-.5Zm5.5 4a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM9 8a2.5 2.5 0 1 0 5 0 2.5 2.5 0 0 0-5 0Z"/>
+            <path d="M3 12.5h3.5v1a.5.5 0 0 1-.5.5H3.5a.5.5 0 0 1-.5-.5v-1Zm4 1v-1h4v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5Z"/>
+          </svg>
+        <label class="front">GPU</label>
+
+        <div class="cmp">
+            <h2 class="tit2">Vega 3 / AMD Radeon RX Vega 3</h2>
+            <p class="prrf">Vega 3 es una GPU integrada decente por el precio, adecuada para juegos muy livianos. No espere superar los 30 FPS ni alejarse de los 720p.
+
+                Procesadores de transmisión: 192
+                Velocidad de reloj de impulso: 1000 MHz<br>
+                <br>Nota: esta GPU integrada se incluye como parte de la CPU. No es necesario que lo compre</p>
+                <p class="price">$49</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu01.png">
+        </div>
+        
+        <div class="cmp">
+            <h2 class="tit2">Vega 7 / AMD Radeon RX Vega 7</h2>
+            <p class="prrf">Vega 7 es una buena GPU integrada, adecuada para juegos livianos. Puede manejar la mayoría de los títulos modernos, pero con configuraciones y resoluciones bajas/medias.<br>
+            <br>Procesadores de transmisión: 488<br>
+            Nota: Esta iGPU se incluye como parte de la CPU. No es necesario que lo compre.</p>
+                <p class="price">$69</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu01.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RTX 550 / Sapphire Radeon RX 550</h2>
+            <p class="prrf">La RX 550 es la tarjeta moderna más débil que se debe comprar. Está (más o menos) a la par en potencia gráfica con las iGPU más potentes, pero se encuentran en APU caras. Si no puede comprar una APU costosa, la RX 550 es una buena alternativa.<br>Velocidad de reloj: 1100MHz <br>   Velocidad de reloj de impulso: 1183 MHz <br> RAM:2GB
+            </p>
+                <p class="price">$160</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu03.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RTX 560 / BIOSTAR Radeon RX 560</h2>
+            <p class="prrf">La RX 560 ofrece un rendimiento similar al de la GTX 1050 de nVidia. Se queda un poco rezagada en los títulos más antiguos (DX11) y la supera un poco en los nuevos títulos DX12/Vulkan. No está mal si tiene un presupuesto ajustado, pero puede obtener mucho más rendimiento por poco dinero.<br>
+                Clock Speed: 1175MHz <br> Boost Clock Speed: 1275MHz <br> RAM: 4GB<br> TPW:75W</p> 
+                <p class="price">$220</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu04.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">GTX 1650 / ASUS GeForce GTX 1650 TUF Gaming OC</h2>
+            <p class="prrf">
+                La GTX 1650 es una tarjeta económica y extremadamente eficiente. Ofrece un alto rendimiento por el precio, mientras consume menos energía y genera menos calor.<br>
+                 <br><br>RAM: 4GB</p> 
+                <p class="price">$220</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu05.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">GTX 1660 S / EVGA GeForce GTX 1660 Super SC ULTRA GAMING</h2>
+            <p class="prrf">
+                La GTX 1660 Super ofrece un buen rendimiento por el precio y compite bien con opciones más caras.<br>
+                <br>Streaming Processors: 1408<br>Boost Clock Speed: 1.83MHz <br>RAM: 6GB</p> 
+                <p class="price">$350</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu06.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">GTX 1660 TI / ASUS GeForce GTX 1660 Ti TUF</h2>
+            <p class="prrf">No verás el fuego reflejado en el ojo brillante de un soldado cuando compres la GTX 1660 Ti, porque no tiene ray tracing. Lo que obtienes es un buen rendimiento de 1440p, a un precio fantástico.<br>
+            <br>Streaming Processors: 1536<br>Boost Clock Speed: 1830MHz<br>RAM: 6GB</p> 
+                <p class="price">$410</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu07.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RTX 2060 / ASUS GeForce RTX 2060 Dual EVO 6G</h2>
+            <p class="prrf">El RTX 2060 ofrece un excelente rendimiento por su precio y es excelente para juegos de 1440p. Tiene un rendimiento ligeramente peor, pero térmicas y ruido ligeramente mejores que la alternativa RX 5700.<br>
+            <br>Streaming Processors: 1920<br>Boost Clock Speed: 1725MHz<br>RAM: 6GB</p> 
+                <p class="price">$400</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu08.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RX 5600XT / ASUS RADEON RX 5600 XT TUF GAMING X3 EVO</h2>
+            <p class="prrf">La RX 5600 XT es una tarjeta de AMD que funciona bien y es eficiente desde el punto de vista energético, ideal para juegos de 1440p. ¡Asegúrese de elegir los modelos con el BIOS de alto rendimiento actualizado!<br>
+            <br>Streaming Processors: 2304<br>Boost Clock Speed: 1770MHz<br>RAM: 6GB</p> 
+                <p class="price">$1150</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu09.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RX 6600XT / ASRock Radeon RX 6600 XT Challenger D</h2>
+            <p class="prrf">Todas las tarjetas se han ido y el cielo está gris. Necesitamos tener esta charla, en un día de invierno. Estas tarjetas estarían disponibles, si estuviéramos en mayo. RX 6600 XT soñando, en un día de invierno como este<br>
+            <br>Streaming Processors: 2048<br>Boost Clock Speed: 2602MHz<br>RAM: 8GB</p> 
+                <p class="price">$470</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu10.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RTX 3600  / GIGABYTE GeForce RTX 3060 GAMING OC</h2>
+            <p class="prrf">The RTX 3060 is a new card aimed at gamers, with a bit of anti-cryptocurrency tech included. It has great 1440p performance. All you have to do is find it for sale!<br>
+            <br>Streaming Processors: 3584<br>Boost Clock Speed: 1837MHz<br>RAM: 12GB</p> 
+                <p class="price">$490</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu11.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RTX 2060S  / MSI GeForce RTX 2060 Super</h2>
+            <p class="prrf">La RTX 2060 Super mejorada de nVidia es una excelente tarjeta de alto nivel, capaz de reproducir la mayoría de los títulos en 4K. Tiene un rendimiento ligeramente peor, pero térmicas y ruido ligeramente mejores que la alternativa RX 5700 XT.<br>
+            <br>Streaming Processors: 2176<br>Boost Clock Speed: 1.665MHz<br>RAM: 8GB</p> 
+                <p class="price">$710</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu12.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RTX 2070S / GIGABYTE GeForce RTX 2070 SUPER GAMING</h2>
+            <p class="prrf">The RTX 2070 Super is an excellent card, crushing most games with ease, even at 4K.<br>
+            <br>Streaming Processors: 2560<br>Clock Speed: 1815MHz<br>TDP: 215W<br>RAM: 8GB</p> 
+                <p class="price">$1240</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu13.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RTX 6700XT / XFX Radeon RX 6700 XT SPEEDSTER QICK 319</h2>
+            <p class="prrf">
+                La RX 6700 XT es una tarjeta estelar que proporciona un excelente rendimiento de 1080 y 4K decente. ¡El único desafío es encontrar algo cercano al MSRP!<br>
+                <br>Streaming Processors: 2560<br>Boost Clock Speed: 2622MHz<br>RAM: 12GB</p> 
+                <p class="price">$630</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu14.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RTX 3600Ti / ZOTAC GeForce RTX 3060 Ti TWIN EDGE OC LHR</h2>
+            <p class="prrf">El RTX 3060 Ti ofrece el rendimiento insignia del año pasado, por la mitad del precio. Excelente 1080p, rendimiento 4K decente. ¡Todo lo que tienes que hacer es encontrarlo a la venta!<br>
+                <br>Streaming Processors: 4864<br>Boost Clock Speed: 1695MHz<br>RAM: 8GB</p> 
+                <p class="price">$700</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu15.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RTX 3070 / Gigabyte GEFORCE RTX 3070 AORUS</h2>
+            <p class="prrf">
+                La poderosa RTX 3070 se encuentra cara a cara con la tarjeta insignia del año pasado, brindando un excelente rendimiento en 1440p y 4K<br>
+                <br>Streaming Processors: 5888<br>Boost Clock Speed: 1755MHz<br>RAM: 8GB</p> 
+                <p class="price">$860</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu16.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RTX 3070 Ti / MSI GeForce RTX 3070 Ti GAMING X TRIO</h2>
+            <p class="prrf">La RTX 3070 Ti es una excelente tarjeta para juegos de 1440p y 4K. Si puede encontrarlo por MSRP, ¡entonces estaría viviendo el sueño!<br>
+                <br>Streaming Processors: 6144<br>Boost Clock Speed: 1830MHz<br>RAM: 8GB</p> 
+                <p class="price">$820</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu17.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RX 6800 / SAPPHIRE PULSE Radeon RX 6800</h2>
+            <p class="prrf">El RX 6800 ofrece un rendimiento excepcional, y eso incluye juegos 4K. Tiene un rendimiento ligeramente mejor, pero cuesta un poco más que el RTX 3070 alternativo.<br>
+                <br>Streaming Processors: 3840<br>Boost Clock Speed: 2105MHz<br>RAM: 16GB</p>
+                <p class="price">$900</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu18.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RX 2080Ti / EVGA GeForce RTX 2080 Ti Black Edition</h2>
+            <p class="prrf">La extremadamente potente RTX 2080 Ti ofrece un rendimiento de juego fantástico para una sola tarjeta. Es enormemente caro, ¡así que solo compre esto si es ridículamente rico!<br>
+            <br>Streaming Processors: 4352<br>Boost Clock Speed: 1.545MHz<br>RAM: 11GB</p>
+                <p class="price">$2000</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu19.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RX 6800XT / XFX Radeon RX 6800 XT Speedster SWFT 319 </h2>
+            <p class="prrf">La RX 6800 XT marca el regreso competitivo de AMD a los niveles superiores. Esta es una gran tarjeta, capaz de jugar en 4K. Tiene un rendimiento ligeramente inferior, pero es más económico que el RTX 3080 alternativo.<br>
+                <br>Streaming Processors: 4608<br>Boost Clock Speed: 2250MHz<br>RAM: 16GB</p>
+                <p class="price">$2000</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu20.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RTX 3080 / MSI GeForce RTX 3080 VENTUS 3X 10G OC LHR </h2>
+            <p class="prrf">La RTX 3080 es una excelente tarjeta para juegos 4K, que obtiene fácilmente buenas tasas de cuadros en todos los juegos modernos con esa resolución. Es caro, así que asegúrese de emparejarlo con una pantalla adecuada.<br>
+            <br>Streaming Processors: 8704<br>Boost Clock Speed: 1740MHz<br>RAM: 10GB</p>
+                <p class="price">$1150</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu21.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RX 6900XT / GIGABYTE Radeon RX 6900 XT OC </h2>
+            <p class="prrf">El RX 6900 XT es el buque insignia de AMD y ofrece un rendimiento increíble y una gran eficiencia. Tiene un rendimiento ligeramente peor, pero cuesta menos, en comparación con el RTX 3090 alternativo.<br>
+                <br>Streaming Processors: 5120<br>Boost Clock Speed: 2285MHz<br>RAM: 16GB</p>
+                <p class="price">$1200</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu22.png">
+        </div>
+
+        
+        <div class="cmp">
+            <h2 class="tit2">RX 3080Ti / ZOTAC GeForce RTX 3080 Ti Trinity OC  </h2>
+            <p class="prrf">Contempla la majestuosidad del RTX 3080 Ti, que casi iguala al RTX 3090 por la mitad del costo. Excelente rendimiento en todos los juegos a 4K, pero ¡qué precio tan alto!<br>
+                <br>Streaming Processors: 10240<br>Boost Clock Speed: 1695MHz<br>RAM: 12GB</p>
+                <p class="price">$1400</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu23.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RX 3090 / GIGABYTE GeForce RTX 3090 Gaming  </h2>
+            <p class="prrf">La extremadamente potente RTX 3090 ofrece el mejor rendimiento de juego para una sola tarjeta. Tenga cuidado: es muy caro, ¡así que compre esto solo si es ridículamente rico!<br>
+                <br>Streaming Processors: 10496<br>TDP: 350W<br>RAM: 24GB</p>
+                <p class="price">$2130</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu24.png">
+        </div>
+
+        <div class="cmp">
+            <h2 class="tit2">RX 3090Ti / GIGABYTE GeForce RTX 3090 Ti Gaming  </h2>
+            <p class="prrf">Este chico malo es la tarjeta de consumo más poderosa disponible, superando a todo lo demás en todas las métricas. Tenga en cuenta que el RTX 3090 Ti es estrictamente para juegos 4K, y TENGA CUIDADO con su gran tamaño, peso pesado, enorme consumo de energía y gran salida de calor. Compre esta tarjeta solo si sabe lo que está haciendo.<br>
+                <br>Streaming Processors: 10752<br>Boost Clock Speed: 1860MHz<br>RAM: 24GB</p>
+                <p class="price">$2150</p>
+                <img class="img" src="../InfoSoftware/imagenes/gpu25.png">
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
