@@ -23,6 +23,7 @@ label.logo{
     padding: 0 15px;
     font-weight: bold;
     position: absolute;
+    margin-left: 20px;
 }
 
 nav ul{
@@ -146,4 +147,16 @@ a.active,a:hover{
     margin-top: 40px;
     font-size: 50px;
     color: rgb(104, 230, 72);
+}
+
+.prrf2{
+    position: relative;
+    padding-left: 0px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 17px;
+}
+
+.favicon{
+    margin-left: 50px;
 }
